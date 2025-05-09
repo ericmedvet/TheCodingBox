@@ -1,0 +1,71 @@
+---
+layout: page
+title: I nostri eventi
+background: "/assets/images/DSC_1507.jpg"
+permalink: /i-nostri-eventi/
+---
+
+{% assign upcoming_events = site.posts | where: "category", "eventi-in-programma" %} {%
+assign past_events = site.posts | where: "category", "eventi-passati" %}
+
+<h1 id="eventi-in-programma">Eventi in programma</h1>
+
+<hr class="green-divider">
+
+{% for post in upcoming_events %}
+<article class="post-preview">
+    <div class="post-image">
+        {% if post.image %}
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        {% endif %}
+    </div>
+    <div class="post-content">
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            {% if post.subtitle %}
+            <span class="post-subtitle">{{ post.subtitle }}</span>
+            {% else %}
+            <span class="post-subtitle">
+                    {{ post.excerpt | strip_html | truncatewords: 15 }}
+                </span>
+            {% endif %}
+        </a>
+        <p class="post-meta">
+            {% if post.day %} {{ post.day }} {% endif %}
+            <br>
+            {% if post.duration %} {{ post.duration }} {% endif %}
+        </p>
+    </div>
+</article>
+{% endfor %}
+
+<h1 id="eventi-passati">Eventi passati</h1>
+
+<hr class="green-divider">
+
+{% for post in past_events %}
+<article class="post-preview">
+    <div class="post-image">
+        {% if post.image %}
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        {% endif %}
+    </div>
+    <div class="post-content">
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            {% if post.subtitle %}
+            <span class="post-subtitle">{{ post.subtitle }}</span>
+            {% else %}
+            <span class="post-subtitle">
+                    {{ post.excerpt | strip_html | truncatewords: 15 }}
+                </span>
+            {% endif %}
+        </a>
+        <p class="post-meta">
+            {% if post.day %} {{ post.day }} {% endif %}
+            <br>
+            {% if post.duration %} {{ post.duration }} {% endif %}
+        </p>
+    </div>
+</article>
+{% endfor %}

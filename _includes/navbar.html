@@ -1,0 +1,40 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="{{ "/" | relative_url }}">
+        {% if site.logo %}
+            <img src="{{ site.logo | relative_url }}" alt="Logo" height="90">
+        {% else %}
+            {{ site.title | escape }}
+        {% endif %}
+        </a>    
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                {% for item in site.navigation %}
+                {% if item.children %}
+                    <!-- Dropdown item -->
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ item.url | relative_url }}">
+                        {{ item.title }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {% for child in item.children %}
+                        <a class="dropdown-item" href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                        {% endfor %}
+                    </div>
+                    </li>
+                {% else %}
+                    <!-- Regular item -->
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,48 @@
+title: The Coding Box
+email: info@thecodingbox.org
+description: >- # this means to ignore newlines until "baseurl:"
+    Introduzione al pensiero computazionale per bambini
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username: thecodingboxtrieste
+linkedin_username: the-coding-box
+instagram_username: the.coding.box
+logo: "/assets/images/logo-TCB-white.png"
+
+theme: jekyll-theme-clean-blog
+plugins:
+    - jekyll-feed
+
+navigation:
+    - title: "Home"
+      url: "/"
+      children:
+          - title: "Coding e pensiero computazionale"
+            url: "/coding-e-pensiero-computazionale/"
+    - title: "Chi siamo"
+      url:
+      children:
+          - title: "L'associazione"
+            url: "/l-associazione/"
+          - title: "Il team"
+            url: "/il-team/"
+          - title: "Collaborazioni e sostenitori"
+            url: "/collaborazioni-e-sostenitori/"
+    - title: "Le nostre attività"
+      url:
+      children:
+          - title: "Coding unplugged"
+            url: "/coding-unplugged/"
+          - title: "Per le famiglie"
+            url: "/per-le-famiglie/"
+            children:
+                - title: "Laboratorio 3-5 anni"
+                  url: "/per-le-famiglie/laboratorio-3-5-anni/"
+          - title: "Per le scuole"
+            url: "/per-le-scuole/"
+          - title: "I nostri eventi"
+            url: "/i-nostri-eventi/"
+    - title: "Sostienici"
+      url: "/sostienici/"
+    - title: "Contatti"
+      url: "/contatti/"

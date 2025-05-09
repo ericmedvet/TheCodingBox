@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+<header class="masthead">
+{% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="page-heading">
+                    {% if page.show_title %}
+                    <h1>{{ page.title }}</h1>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+            {% if page.title %}<h1 class="event-title">{{ page.title }}</h1> {% endif %}
+
+            <div class="event-layout">
+                <div class="event-data">
+                    {% if page.image %}
+                        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+                    {% endif %}
+                    {{ content }}
+                </div>
+            
+                <div class="event-info">
+                    <div>
+                        {% if page.day %}
+                        <div class="grey-div">
+                            <div class="grey-div-label"><i class="far fa-calendar-alt icon-colored"></i> DATA</div>
+                            <div class="grey-div-value">{{ page.day }}</div>
+                        </div>
+                        {% endif %}
+                        {% if page.duration %}
+                        <div class="grey-div">
+                            <div class="grey-div-label"><i class="far fa-clock icon-colored"></i> ORA</div>
+                            <div class="grey-div-value">{{ page.duration }}</div>
+                        </div>
+                        {% endif %}
+                        {% if page.category %}
+                        <div class="grey-div">
+                            <div class="grey-div-label"><i class="far fa-folder icon-colored"></i> CATEGORIA</div>
+                            {% assign formatted_category = page.category | replace: "-", " " %}
+                            {% assign first_letter = formatted_category | slice: 0, 1 | capitalize %}
+                            {% assign rest_of_string = formatted_category | slice: 1, formatted_category.size %}
+                            {% assign formatted_category = first_letter | append: rest_of_string %}
+                            <div class="grey-div-value">
+                                <a href="{{ '/i-nostri-eventi/#' | append: page.category | relative_url }}">{{ formatted_category }}</a>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+            
+                    <div>
+                        <strong>CONDIVIDI QUESTO EVENTO</strong>
+                        <div id="social-container">
+                            {% if page.facebook %}
+                            <a href="{{ page.facebook }}" style="color: #3b5998;">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-square fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                            {% if page.twitter %}
+                            <a href="{{ page.twitter }}" style="color: #1DA1F2;">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-square fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                            {% if page.linkedin %}
+                            <a href="{{ page.linkedin }}" style="color: #0077B5;">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-square fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                            {% if page.mail %}
+                            <a href="{{ page.mail }}" style="color: #D44638;">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-square fa-stack-2x"></i>
+                                    <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a> 
+                            {% endif %}                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

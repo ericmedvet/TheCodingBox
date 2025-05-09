@@ -1,0 +1,405 @@
+/*General*/
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding: 8px 0;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    border-top: 1px solid #ddd;
+    margin-top: auto;
+}
+
+h1 {
+    text-align: center !important;
+}
+
+.green-divider {
+    border: none;
+    border-top: 4px solid #c0d969;
+    margin: 2rem 0;
+}
+
+.text-main-color {
+    font-weight: bold;
+    color: #a3ca3f;
+}
+
+a {
+    text-decoration: none;
+    color: #a3ca3f;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #a3ca3f;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: white;
+    color: #7ba94d;
+    border: 2px solid #7ba94d;
+    border-radius: 50px;
+    padding: 12px 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #7ba94d;
+    color: white;
+    text-decoration: none;
+}
+/*end general*/
+
+/*navbar*/
+#mainNav.is-fixed {
+    top: -127px !important; /*Needed when using image as logo*/
+}
+
+.dropdown-menu {
+    width: 300px;
+    min-width: unset;
+    max-width: 300px !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+/*end navbar*/
+
+/*slideshow*/
+.image-grid {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 60px;
+}
+
+.image-item {
+    width: 30%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .image-grid {
+        width: 130% !important;
+        margin-left: -15% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-item {
+        width: 80%;
+    }
+}
+/*end slideshow*/
+
+/*"Percorso scuole*/
+.image-grid-small {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 30px;
+}
+
+.image-item-small {
+    width: calc(25% - 1rem);
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+.image-item-small img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .image-item {
+        width: 80%;
+    }
+
+    .image-item-small {
+        width: 80%;
+    }
+}
+/*end "Percorso scuole*/
+
+/*"Team"*/
+.profile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 60px;
+}
+
+.profile-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    height: 100%;
+    width: calc(25% - 1rem);
+    text-align: center;
+    height: 100%;
+}
+
+.profile-item img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.profile-item h3 {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    word-break: break-word;
+}
+
+.profile-item p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.profile-item a {
+    margin-top: auto;
+}
+
+@media (max-width: 992px) {
+    .profile-item {
+        width: calc(32% - 1rem);
+    }
+}
+
+@media (min-width: 768px) {
+    .profile-grid {
+        width: 130% !important;
+        margin-left: -15% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-item {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-item {
+        width: 70%;
+    }
+}
+/*end "Team"*/
+
+/*"Contatti"*/
+#social-inline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    font-size: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#social-inline a {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    #social-inline {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        max-width: 300px;
+    }
+}
+/*end "Contatti"*/
+
+/*"Collaborazioni e sostenitori"*/
+.logo-box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.logo-box img {
+    max-height: 80px;
+    max-width: 100%;
+    object-fit: contain;
+}
+/*end "Collaborazioni e sostenitori"*/
+
+/*posts/index.html*/
+.post-preview {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.post-image {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-right: 1rem;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.post-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+@media (max-width: 768px) {
+    .post-preview {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post-image {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .post-content {
+        flex: 1;
+    }
+}
+/*end posts/index.html*/
+
+/*event.html*/
+.event-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.event-data {
+    flex: 0 0 65%;
+    max-width: 65%;
+    height: auto;
+}
+
+.event-data img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.event-info {
+    flex: 0 0 35%;
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1rem;
+    font-size: medium;
+}
+
+.event-info > div {
+    border: 1px solid #e2e2e2;
+    padding: 1rem;
+}
+
+.grey-div {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 5%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.grey-div-label {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+}
+
+.icon-colored {
+    font-size: 22px;
+    color: #c0d969;
+}
+
+.grey-div-value {
+    padding-left: 2em;
+}
+
+#social-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .event-data,
+    .event-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .event-layout,
+    .event-title {
+        width: 130% !important;
+        margin-left: -15% !important;
+    }
+}
+/*end event.html*/

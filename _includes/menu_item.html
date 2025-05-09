@@ -1,0 +1,25 @@
+{%- assign item = include.item -%}
+{%- assign parent = include.parent | default: false -%}
+
+{% if item.children %}
+<li class="nav-item dropdown{% if parent %} dropdown-submenu{% endif %}">
+    <a class="nav-link dropdown-toggle"
+    href="{{ item.url | relative_url }}"
+    {% unless parent %}data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"{% endunless %}>
+    {{ item.title }}
+    </a>
+    <ul class="dropdown-menu">
+    {% for child in item.children %}
+        {% include menu_item.html item=child parent=true %}
+    {% endfor %}
+    </ul>
+</li>
+{% else %}
+{% if parent %}
+    <li><a class="dropdown-item" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+{% else %}
+    <li class="nav-item">
+    <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    </li>
+{% endif %}
+{% endif %}
