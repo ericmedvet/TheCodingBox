@@ -19,8 +19,12 @@ Un corso per scoprire i concetti di comando, condizione, procedura, sequenza e r
 coding unplugged, con particolare attenzione alle tecniche di facilitazione per aiutare bambine e bambini ad avvicinarsi
 progressivamente al pensiero computazionale
 
-21 ore in presenza<br>
-presso l’Istituto Tecnico G. Deledda – M. Fabiani (TS)<br>
-Polo STEAM FVG<br>
-Dall’11 gennaio all’1 marzo 2023<br>
+21 ore in presenza
+
+presso l’Istituto Tecnico G. Deledda – M. Fabiani (TS)
+
+Polo STEAM FVG
+
+Dall’11 gennaio all’1 marzo 2023
+
 Ogni mercoledì dalle 16.30 alle 19.30

@@ -22,9 +22,9 @@ Puoi sostenerci scegliendo due diverse modalità:
     </li>
 </ul>
 
-Unisciti a **The Coding Box** compilando il <a class="bold-text" href="{{ '/assets/docs/MODULO-PER-ISCRIZIONE-THE-CODING-BOX.pdf' | relative_url }}" target="_blank">modulo allegato</a> e invialo all’indirizzo: <a class="bold-text" href="mailto:info@thecodingbox.org">info@thecodingbox.org</a>
+Unisciti a **The Coding Box** compilando il **<a href="{{ '/assets/docs/MODULO-PER-ISCRIZIONE-THE-CODING-BOX.pdf' | relative_url }}" target="_blank">modulo allegato</a>** e invialo all’indirizzo: **[info@thecodingbox.org](mailto:info@thecodingbox.org)**
 
-**Modalità di pagamento**: bonifico sul conto corrente bancario intestato a “The Coding Box Associazione” c/o Credit Agricole Friuladria Spa – V. Mazzini, 7 – Trieste, IBAN IT53W0623002207000015467586 causale “quota associativa nome cognome anno 20xx”; (inviare copia della ricevuta a <a class="bold-text" href="mailto:info@thecodingbox.org">info@thecodingbox.org</a>).
+**Modalità di pagamento**: bonifico sul conto corrente bancario intestato a "The Coding Box Associazione" c/o Credit Agricole Friuladria Spa – V. Mazzini, 7 – Trieste, IBAN IT53W0623002207000015467586 causale "quota associativa nome cognome anno 20xx"; (inviare copia della ricevuta a **[info@thecodingbox.org](mailto:info@thecodingbox.org)**).
 
 **Grazie per il tuo sostegno!**
 

@@ -15,6 +15,7 @@ mail: "mailto:?subject=Coding Unplugged - Istituto del Sacro Cuore, Trieste&body
 
 Attraverso delle attività unplugged (ossia senza utilizzo di pc) i ragazzi apprenderanno l’importanza dello sviluppo
 delle abilità cognitive connesse al Pensiero computazionale e prenderanno dimestichezza con i concetti alla base della
-programmazione.<br>
-La base di riferimento sarà il gioco da tavolo “Code Monkey Island” che verrà adattato per le scuole elementari in un
+programmazione.
+
+La base di riferimento sarà il gioco da tavolo "Code Monkey Island" che verrà adattato per le scuole elementari in un
 gioco a grandezza naturale da svolgere all’interno di una palestra.

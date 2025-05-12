@@ -9,7 +9,7 @@ permalink: /contatti/
 
 <hr class="green-divider">
 
-Per informazioni, iscrizioni o anche solo per conoscerci meglio, scrivici a <a class="bold-text" href="mailto:info@thecodingbox.org">info@thecodingbox.org</a>
+Per informazioni, iscrizioni o anche solo per conoscerci meglio, scrivici a **[info@thecodingbox.org](mailto:info@thecodingbox.org)**
 
 <a href="{{ '/sostienici/' | relative_url }}" class="btn-custom">Collabora con noi</a>
 

@@ -16,7 +16,7 @@ mail: "mailto:?subject=Trieste4Digital&body=https://thecodingbox.org/events/even
 Sabato 19 ottobre 2019 presso Ex-Ospedale Militare di Trieste si è tenuta la prima edizione di Trieste4Digital che ha
 registrato oltre 270 partecipanti.
 
-In occasione della <a href="http://www.codeweek.eu/">settimana europea del coding</a> abbiamo organizzato insieme ad
+In occasione della [settimana europea del coding](http://www.codeweek.eu/) abbiamo organizzato insieme ad
 altri gruppi attivi sul territori una giornata di laboratori GRATUITI dedicati all’avvicinamento al coding,
 all’educazione digitale ed alla formazione.
 

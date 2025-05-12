@@ -27,7 +27,7 @@ Contribuire allo sviluppo, alla divulgazione ed alla **sensibilizzazione cultura
 
 <hr class="green-divider">
 
-<a class="bold-text" href="{{ '/assets/docs/Statuto-The-Coding-Box-Terzo-Settore.pdf' | relative_url }}" target="_blank">Statuto The Coding Box - Terzo Settore</a>
+**<a href="{{ '/assets/docs/Statuto-The-Coding-Box-Terzo-Settore.pdf' | relative_url }}" target="_blank">Statuto The Coding Box - Terzo Settore</a>**
 
 <div class="image-grid">
     <div class="image-item">

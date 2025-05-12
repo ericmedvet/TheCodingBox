@@ -13,29 +13,30 @@ linkedin: "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fthe
 mail: "mailto:?subject=Scienza, giochi & fumetti&body=https://thecodingbox.org/events/evento-1-138/"
 ---
 
-La disseminazione e divulgazione della scienza hanno due importanti alleati: il gioco ed i fumetti.<br>
+La disseminazione e divulgazione della scienza hanno due importanti alleati: il gioco ed i fumetti.
 La tendenza alla _gamification_, ovvero all’uso del gioco, ed in particolare i giochi da tavola (ma anche i videogiochi)
 per la diffusione della cultura scientifica, particolarmente tra i giovani, è sempre più diffusa ed è uno strumento
-efficace a tutte le età.<br>
+efficace a tutte le età.
 Anche il fumetto, dal canto suo, è sempre più usato come mezzo per raccontare la scienza, rivolgendosi sia a giovani che
-a meno giovani.<br>
+a meno giovani.
 In questo evento dialogheremo con due esperti, scoprendo con esempi ed aneddoti come questi due mondi, il gioco in
 scatola ed il fumetto, stiano diventando fondamentali strumenti educativi per raccontare la scienza ed avvicinare i
-giovani alle discipline scientifiche.<br>
+giovani alle discipline scientifiche.
 
-SPEAKERS<br>
+SPEAKERS
+
 **Ennio Bilancini**, Professore di economia comportamentale a IMT Lucca, presidente di Game Science Research Center,
-centro di ricerca nazionale sui giochi.<br>
+centro di ricerca nazionale sui giochi.
+
 **Fabio Gadducci**, Professore di informatica a Pisa, Presidente dell’Associazione nazionale docenti informatica e
 critico letterario di fumetti e fantascienza.
 
 Per partecipare all’evento
-iscriviti <a href="https://www.eventbrite.com/e/biglietti-the-coding-box-ottobre-2022-scienza-giochi-fumetti-429396415237">
-qui</a>.
+iscriviti [qui](https://www.eventbrite.com/e/biglietti-the-coding-box-ottobre-2022-scienza-giochi-fumetti-429396415237">).
 
 Evento organizzato in collaborazione con AI2S (Artificial Intelligence Student Society), con il supporto di Aindo,
 BeanTech, Racheael e patrocinato da Università degli Studi di Trieste e SISSA.
 
-L’evento è stato inoltre inserito nella rassegna della <a href="https://codeweek.eu/">European Code Week</a>, iniziativa
+L’evento è stato inoltre inserito nella rassegna della [European Code Week](https://codeweek.eu/), iniziativa
 che nasce dal basso e mira a portare la programmazione e l’alfabetizzazione digitale a tutti in modo divertente e
 coinvolgente.

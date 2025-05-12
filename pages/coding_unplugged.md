@@ -9,9 +9,9 @@ permalink: /coding-unplugged/
 
 <hr class="green-divider">
 
-Il progetto The Coding Box si propone di avvicinare i più piccoli (età 3-7 anni) alle logiche della programmazione (coding) attraverso giochi ed esperienze pratiche utilizzando un approccio “unplugged” ossia che non implichi l’utilizzo diretto del computer.
+Il progetto The Coding Box si propone di avvicinare i più piccoli (età 3-7 anni) alle logiche della programmazione (coding) attraverso giochi ed esperienze pratiche utilizzando un approccio "unplugged" ossia che non implichi l’utilizzo diretto del computer.
 
-Diversi <a href="http://pediatrics.aappublications.org/content/132/5/958">studi</a> affermano che per i bambini tra i 3 ed i 5 anni l’esposizione ad apparecchiature tecnologiche (tablet, smartphone, video giochi) non dovrebbe superare un’ora al giorno, mentre dai 6 agli 8 anni non dovrebbe superare le due ore al giorno.
+Diversi [studi](http://pediatrics.aappublications.org/content/132/5/958) affermano che per i bambini tra i 3 ed i 5 anni l’esposizione ad apparecchiature tecnologiche (tablet, smartphone, video giochi) non dovrebbe superare un’ora al giorno, mentre dai 6 agli 8 anni non dovrebbe superare le due ore al giorno.
 
 Per questo motivo stiamo assistendo alla nascita di diverse iniziative di avvicinamento al pensiero computazionale senza però l’esposizione diretta ad uno schermo.
 
@@ -41,9 +41,9 @@ Per questo motivo stiamo assistendo alla nascita di diverse iniziative di avvici
 
 **Modalità unplugged**
 
-Il progetto The Coding Box si propone di avvicinare i più piccoli (età 3-7 anni) alle logiche della programmazione (coding) attraverso giochi ed esperienze pratiche utilizzando un approccio “unplugged” ossia che non implichi l’utilizzo diretto del computer.
+Il progetto The Coding Box si propone di avvicinare i più piccoli (età 3-7 anni) alle logiche della programmazione (coding) attraverso giochi ed esperienze pratiche utilizzando un approccio "unplugged" ossia che non implichi l’utilizzo diretto del computer.
 
-Diversi <a href="http://pediatrics.aappublications.org/content/132/5/958">studi</a> affermano che per i bambini tra i 3 ed i 5 anni l’esposizione ad apparecchiature tecnologiche (tablet, smartphone, video giochi) non dovrebbe superare un’ora al giorno, mentre dai 6 agli 8 anni non dovrebbe superare le due ore al giorno.
+Diversi [studi](http://pediatrics.aappublications.org/content/132/5/958) affermano che per i bambini tra i 3 ed i 5 anni l’esposizione ad apparecchiature tecnologiche (tablet, smartphone, video giochi) non dovrebbe superare un’ora al giorno, mentre dai 6 agli 8 anni non dovrebbe superare le due ore al giorno.
 
 Per questo motivo stiamo assistendo alla nascita di diverse iniziative di avvicinamento al pensiero computazionale senza però l’esposizione diretta ad uno schermo.
 
@@ -81,7 +81,7 @@ Attività funzionale all’acquisizione dei seguenti concetti: che cos’è un L
 
 **Attività di astrazione e rielaborazione:**
 
-​Schede attività all’interno delle quali si impara a concettualizzare quanto appreso con il gioco “Traccia il percorso”
+​Schede attività all’interno delle quali si impara a concettualizzare quanto appreso con il gioco "Traccia il percorso"
 
 -   Debugging imparare ad identificare un errore e correggerlo
 -   Teoria degli insiemi e struttura dei dati
@@ -93,7 +93,7 @@ Attività funzionale all’acquisizione dei seguenti concetti: che cos’è un L
 -   Costruisci il tuo percorso
 -   La tua invenzione
 
-​Una volta che i bambini attraverso il gioco avranno interiorizzato queste competenze potranno poi approcciarsi alla “reale scrittura di programmazione” con maggiore consapevolezza a prescindere dal tipo di linguaggio di programmazione (es. Scratch ecc.) evitando in questo modo di incorrere nell’apprendimento mnemonico automatico legato alla sola memorizzazione di codici di programmazione.
+​Una volta che i bambini attraverso il gioco avranno interiorizzato queste competenze potranno poi approcciarsi alla "reale scrittura di programmazione" con maggiore consapevolezza a prescindere dal tipo di linguaggio di programmazione (es. Scratch ecc.) evitando in questo modo di incorrere nell’apprendimento mnemonico automatico legato alla sola memorizzazione di codici di programmazione.
 
 insegnare una tipologia di ragionamento logico più che programmare
 

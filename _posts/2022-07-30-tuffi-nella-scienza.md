@@ -19,7 +19,6 @@ Engineering, Art & Mathematics**).
 
 Il programma – che avrà inizio il 17 giugno e si concluderà il 30 luglio 2022 – è strutturato in **più di 80 attività
 laboratoriali e iniziative gratuite** e avrà luogo presso
-il <a href="https://www.google.com/maps/place/United+World+College+of+the+Adriatic/@45.7732799,13.6046994,15z/data=!4m2!3m1!1s0x0:0x7a5e31257a55cfd0?sa=X&ved=2ahUKEwjBjdj_7af3AhWOQ_EDHbpYDQIQ_BJ6BAhREAU">
-Collegio del Mondo Unito di Duino</a>.
+il [Collegio del Mondo Unito di Duino](https://www.google.com/maps/place/United+World+College+of+the+Adriatic/@45.7732799,13.6046994,15z/data=!4m2!3m1!1s0x0:0x7a5e31257a55cfd0?sa=X&ved=2ahUKEwjBjdj_7af3AhWOQ_EDHbpYDQIQ_BJ6BAhREAU).
 Per conoscere l’intero programma e prenotare il tuo laboratorio, visita il
-sito <a href="https://www.tuffinellascienza.it/">tuffinellascienza.it</a>
+sito [tuffinellascienza.it](https://www.tuffinellascienza.it/)

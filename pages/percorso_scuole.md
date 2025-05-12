@@ -102,7 +102,7 @@ Grazie a degli speciali pc di legno, i bambini si trasformeranno in veri e propr
 
 <hr class="green-divider">
 
-<a href="{{ '/contatti/' | relative_url }}">Contattaci</a> per portare i nostri laboratori nella tua scuola!
+[Contattaci]({{ '/contatti/' | relative_url }}) per portare i nostri laboratori nella tua scuola!
 
 <div class="image-grid">
     <div class="image-item">

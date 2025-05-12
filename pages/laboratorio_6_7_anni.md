@@ -11,7 +11,7 @@ permalink: /per-le-famiglie/laboratorio-6-7-anni/
 
 **Tema del laboratorio**
 
-PROGRAMMIAMO IL NOSTRO “THE CODING BOX PC”
+PROGRAMMIAMO IL NOSTRO "THE CODING BOX PC"
 
 Il laboratorio prevede una parte di gioco base introduttivo sul tema del **coding** e delle **istruzioni** e si conclude con un’esperienza reale di ciò che si è imparato attraverso l’utilizzo di _Mackey Mackey_ un sistema per controllare circuiti e computer.
 
