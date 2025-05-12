@@ -18,18 +18,18 @@ L’**alfabetizzazione digitale** è una competenza trasversale, grazie alla qua
 
 <div class="image-grid">
     <div class="image-item">
-        <a href="/assets/images/slideshow/1.jpg" data-lightbox="gallery" data-title="Immagine 1">
-            <img src="/assets/images/slideshow/1.jpg" alt="Immagine 1">
+        <a href="{{ '/assets/images/slideshow/1.jpg' | relative_url }}" data-lightbox="gallery" data-title="Immagine 1">
+            <img src="{{ '/assets/images/slideshow/1.jpg' | relative_url }}" alt="Immagine 1">
         </a>
     </div>
     <div class="image-item">
-        <a href="/assets/images/slideshow/2.jpg" data-lightbox="gallery" data-title="Immagine 2">
-            <img src="/assets/images/slideshow/2.jpg" alt="Immagine 2">
+        <a href="{{ '/assets/images/slideshow/2.jpg' | relative_url }}" data-lightbox="gallery" data-title="Immagine 2">
+            <img src="{{ '/assets/images/slideshow/2.jpg' | relative_url }}" alt="Immagine 2">
         </a>
     </div>
     <div class="image-item">
-        <a href="/assets/images/slideshow/3.jpg" data-lightbox="gallery" data-title="Immagine 3">
-            <img src="/assets/images/slideshow/3.jpg" alt="Immagine 3">
+        <a href="{{ '/assets/images/slideshow/3.jpg' | relative_url }}" data-lightbox="gallery" data-title="Immagine 3">
+            <img src="{{ '/assets/images/slideshow/3.jpg' | relative_url }}" alt="Immagine 3">
         </a>
     </div>
 </div>
