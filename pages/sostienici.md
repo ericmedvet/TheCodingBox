@@ -27,3 +27,21 @@ Unisciti a **The Coding Box** compilando il <a class="bold-text" href="{{ '/asse
 **Modalità di pagamento**: bonifico sul conto corrente bancario intestato a “The Coding Box Associazione” c/o Credit Agricole Friuladria Spa – V. Mazzini, 7 – Trieste, IBAN IT53W0623002207000015467586 causale “quota associativa nome cognome anno 20xx”; (inviare copia della ricevuta a <a class="bold-text" href="mailto:info@thecodingbox.org">info@thecodingbox.org</a>).
 
 **Grazie per il tuo sostegno!**
+
+<div class="image-grid">
+    <div class="image-item">
+        <a href="{{ '/assets/images/slideshow/DSC_1299.jpg' | relative_url }}" data-lightbox="gallery" data-title="Immagine 1">
+            <img src="{{ '/assets/images/slideshow/DSC_1299.jpg' | relative_url }}" alt="Immagine 1">
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="{{ '/assets/images/DSC_1176.jpg' | relative_url }}" data-lightbox="gallery" data-title="Immagine 2">
+            <img src="{{ '/assets/images/DSC_1176.jpg' | relative_url }}" alt="Immagine 2">
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="{{ '/assets/images/slideshow/3.jpg' | relative_url }}" data-lightbox="gallery" data-title="Immagine 3">
+            <img src="{{ '/assets/images/slideshow/3.jpg' | relative_url }}" alt="Immagine 3">
+        </a>
+    </div>
+</div>
