@@ -38,8 +38,13 @@ navigation:
             children:
                 - title: "Laboratorio 3-5 anni"
                   url: "/per-le-famiglie/laboratorio-3-5-anni/"
+                - title: "Laboratorio 6-7 anni"
+                  url: "/per-le-famiglie/laboratorio-6-7-anni/"
           - title: "Per le scuole"
             url: "/per-le-scuole/"
+            children:
+              - title: "Percorso Scuole"
+                url: "/per-le-scuole/percorso-scuole/"
           - title: "I nostri eventi"
             url: "/i-nostri-eventi/"
     - title: "Sostienici"
