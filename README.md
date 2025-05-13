@@ -15,7 +15,7 @@ This repository contains the source code for the website [thecodingbox.org](http
     -   `footer.html` to use custom footer with social icons
 -   `_layouts`: overloaded HTML theme files used to define home, pages, and events
     -   `home.html` is used for the homepage (here [`pages/index.md`](pages/index.md)). The overload consists in remove the dynamic part inserting posts
-    -   `page.html` is the template to publish a page. Since Jekyll allows [Liquid](https://shopify.github.io/liquid/) language, you can use variables that will be considered when rendering. Now, by overloading, you can decide if the page will render the title using `title: True` in the [Front Matter](https://jekyllrb.com/docs/front-matter/).
+    -   `page.html` is the template to publish a page. Since Jekyll allows [Liquid](https://shopify.github.io/liquid/) language, you can use variables that will be considered when rendering. Now, by overloading, you can decide if the page will render the title using `show_title: True` in the [Front Matter](https://jekyllrb.com/docs/front-matter/).
     -   `event.html` is the template for creating a new event (~post in the context of this blog). The Front Matter of the MD file will have the vast majority of information to create the event, and its body will only has the actual content (check [`_posts`](_posts) for examples)
 -   `_posts`: folder for events, with Jekyll name convention (e.g., `YYYY-MM-DD-post-title.md`)
 -   `assets`: folder containing all the assets. Every folder inside it will be recognized

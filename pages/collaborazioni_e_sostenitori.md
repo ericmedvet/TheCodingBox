@@ -12,7 +12,7 @@ permalink: /collaborazioni-e-sostenitori/
 Dal 2016 abbiamo dato vita a numerose iniziative, che sono state realizzate grazie al supporto e alla collaborazione con diversi partner che ci hanno promosso e sostenuto.
 
 <div class="container py-4">
-  <div class="row row-cols-5">
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5">
     <div class="col mb-4 text-center">
       <a href="https://fondazionepittini.it/" target="_blank" rel="noopener">
         <div class="logo-box">
@@ -70,7 +70,7 @@ Dal 2016 abbiamo dato vita a numerose iniziative, che sono state realizzate graz
 <hr class="green-divider">
 
 <div class="container py-4">
-  <div class="row row-cols-5">
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5">
     <div class="col mb-4 text-center">
       <a href="https://www.ialweb.it/" target="_blank" rel="noopener">
         <div class="logo-box">

@@ -16,9 +16,6 @@ plugins:
 navigation:
     - title: "Home"
       url: "/"
-      children:
-          - title: "Coding e pensiero computazionale"
-            url: "/coding-e-pensiero-computazionale/"
     - title: "Chi siamo"
       url:
       children:
@@ -31,6 +28,8 @@ navigation:
     - title: "Le nostre attività"
       url:
       children:
+          - title: "Coding e pensiero computazionale"
+            url: "/coding-e-pensiero-computazionale/"
           - title: "Coding unplugged"
             url: "/coding-unplugged/"
           - title: "Per le famiglie"
