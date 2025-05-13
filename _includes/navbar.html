@@ -16,7 +16,7 @@
             {% for item in site.navigation %}
             {% if item.children %}
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown{{ forloop.index }}" role="button" aria-expanded="false">
                         {{ item.title }}
                     </a>
                     <ul class="dropdown-menu">

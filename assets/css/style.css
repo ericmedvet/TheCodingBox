@@ -90,18 +90,6 @@ a:hover {
     }
 }
 
-.nav-link:focus,
-.dropdown-item:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-@media (max-width: 768px) {
-    .logo-dimension {
-        height: 55px;
-    }
-}
-
 .dropdown-menu {
     border-left: 2px solid #c0d969;
     box-shadow: none;
@@ -109,6 +97,38 @@ a:hover {
     border-right: none;
     border-bottom: none;
     border-radius: 0px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #c0d969 !important;
+  color: black !important;
+}
+
+.nav-link:focus,
+.dropdown-item:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media (max-width: 992px) {
+    #mainNav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1030;
+        background-color: white;
+    }
+
+    body {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-dimension {
+        height: 55px;
+    }
 }
 /*end navbar*/
 
