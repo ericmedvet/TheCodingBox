@@ -11,8 +11,7 @@ permalink: /
 
 Il progetto **The Coding Box** nasce nel 2016 da un piccolo nucleo di professionisti dei settori comunicazione, informatica ed educazione, desiderosi di dar vita ad un’iniziativa che avesse un reale impatto sulla società, allo scopo di sensibilizzare la comunità rispetto ad una cultura digitale consapevole.
 
-Da aprile 2021 il progetto è diventato **[Associazione]({{ '/l-associazione' | relative_url }})
-** dalla volontà di creare sempre più momenti dedicati al confronto, alla formazione, al coinvolgimento ed alla sensibilizzazione delle nuove generazioni, famiglie, educatori e tutti i portatori di interesse.
+Da aprile 2021 il progetto è diventato **[Associazione]({{ '/l-associazione' | relative_url }})** dalla volontà di creare sempre più momenti dedicati al confronto, alla formazione, al coinvolgimento ed alla sensibilizzazione delle nuove generazioni, famiglie, educatori e tutti i portatori di interesse.
 
 <a href="{{ '/' | relative_url }}" class="btn-custom">Scopri di più</a>
 

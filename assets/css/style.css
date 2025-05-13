@@ -71,19 +71,21 @@ a:hover {
 /*end general*/
 
 /*navbar*/
-#mainNav.is-fixed {
-    top: -127px !important; /*Needed when using image as logo*/
-}
+@media (min-width: 992px) {
+    #mainNav.is-fixed {
+        top: -127px !important; /*Needed when using image as logo*/
+    }
 
-.dropdown-menu {
-    width: 300px;
-    min-width: unset;
-    max-width: 300px !important;
-}
+    .dropdown-menu {
+        width: 300px;
+        min-width: unset;
+        max-width: 300px !important;
+    }
 
-.nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
 }
 /*end navbar*/
 

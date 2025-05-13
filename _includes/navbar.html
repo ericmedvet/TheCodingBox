@@ -7,33 +7,32 @@
         {% else %}
             {{ site.title | escape }}
         {% endif %}
-        </a>    
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fa fa-bars"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                {% for item in site.navigation %}
-                {% if item.children %}
-                    <!-- Dropdown item -->
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ item.url | relative_url }}">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            {% for item in site.navigation %}
+            {% if item.children %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ item.url | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         {{ item.title }}
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        {% for child in item.children %}
-                        <a class="dropdown-item" href="{{ child.url | relative_url }}">{{ child.title }}</a>
-                        {% endfor %}
-                    </div>
-                    </li>
-                {% else %}
-                    <!-- Regular item -->
-                    <li class="nav-item">
+                    <ul class="dropdown-menu">
+                    {% for child in item.children %}
+                        <li>
+                            <a class="dropdown-item" href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </li>
+            {% else %}
+                <li class="nav-item">
                     <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    </li>
-                {% endif %}
-                {% endfor %}
+                </li>
+            {% endif %}
+            {% endfor %}
             </ul>
         </div>
     </div>
