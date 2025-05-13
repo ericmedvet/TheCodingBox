@@ -58,7 +58,7 @@ assign past_events = site.posts | where: "category", "eventi-passati" %}
             {% else %}
             <span class="post-subtitle">
                     {{ post.excerpt | strip_html | truncatewords: 15 }}
-                </span>
+            </span>
             {% endif %}
         </a>
         <p class="post-meta">

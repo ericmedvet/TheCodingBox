@@ -101,6 +101,15 @@ a:hover {
         height: 55px;
     }
 }
+
+.dropdown-menu {
+    border-left: 2px solid #c0d969;
+    box-shadow: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0px;
+}
 /*end navbar*/
 
 /*slideshow*/
@@ -282,7 +291,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    .logo-box{
+    .logo-box {
         height: 80%;
         max-width: 100%;
     }
@@ -295,6 +304,9 @@ a:hover {
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .post-image {
@@ -337,6 +349,7 @@ a:hover {
     .post-image {
         max-width: 100%;
         margin-right: 0;
+        margin-bottom: 12px;
     }
 
     .post-content {
