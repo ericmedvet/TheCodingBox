@@ -46,12 +46,12 @@ mail:
 ---
 ```
 
--   `layout: event` specify the [layout](_layouts/event.html) that will be used to render the page event
+-   `layout: event` specify the [`layout`](_layouts/event.html) that will be used to render the page event
 -   `title` is a string for the title that will be displayed inside the event page as well as in the events list page
--   `category` is needed to distinguish for past events ("eventi-passati") and future events ("eventi-in-programma"). At the moment only these two categories exists. Please note that if you need to add more, you have to modify the [page listing all events](posts/index.html) (e.g., [thecodingbox.org/i-nostri-eventi](thecodingbox.org/i-nostri-eventi)) accordingly, otherwise they will not be shown
+-   `category` is needed to distinguish for past events ("eventi-passati") and future events ("eventi-in-programma"). At the moment only these two categories exists. Please note that if you need to add more, you have to modify the [page listing all events](posts/index.html) (e.g., [`thecodingbox.org/i-nostri-eventi`](thecodingbox.org/i-nostri-eventi)) accordingly, otherwise they will not be shown
 -   `day` is a string (so no specific format) for the day of the event. Currently, only the "dd-mm-yy" and "dd-mm-yy to dd-mm-yy" formats are in use
 -   `duration` allows you to specify the event duration. Currently, only the "All day" and "hh:mm - hh:mm" formats are in use
--   `image` is the image that will be displayed in the body of the event and in the events list page. Insert it in [assets/images](assets/images/) folder
+-   `image` is the image that will be displayed in the body of the event and in the events list page. Insert it in [`assets/images`](assets/images/) folder
 -   `background` is the image shown in the header of the page (typically [/assets/images/DSC_1507.jpg](/assets/images/DSC_1507.jpg))
 -   `permalink` is the output path of the event; typically it is something like `/i-nostri-eventi/evento1`
 -   `facebook`, `twitter`, `linkedin` and `mail` are the links that can be used to share the event on the various platforms. They require the full URL of the post on the relative platform (for the mail you have to insert `mailto:?subject=` and so on); if you do not want to include a link, just remove the relative variable
@@ -71,7 +71,10 @@ permalink:
 ---
 ```
 
-The meaning of the variables are the same as for events. Additionally, here you can set `show_title: True` if you want to show the title in the header of the page (i.e., on the background image)
+The meaning of the variables are the same as for events. Additionally, here you can set `show_title: True` if you want to show the title in the header of the page (i.e., on the background image).
+
+> [!IMPORTANT]
+> If the added page is to appear in the navigation menu, the `navigation` variable of [`config.yml`](_config.yml) should also be modified
 
 ### Pushing changes
 
