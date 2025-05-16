@@ -16,22 +16,22 @@
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const isMobile = () => window.innerWidth < 992; // Bootstrap breakpoint
+    document.addEventListener("DOMContentLoaded", function () {
+        const isMobile = () => window.innerWidth < 992;
 
-    document.querySelectorAll('.nav-item.dropdown > .nav-link').forEach(link => {
-        const toggleDropdown = () => {
-            if (isMobile()) {
-                link.setAttribute('data-toggle', 'dropdown');
-                link.onclick = null;
-            } else {
-                link.removeAttribute('data-toggle');
-                link.onclick = (e) => e.preventDefault();
-            }
-        };
+        document.querySelectorAll('.nav-item.dropdown > .nav-link').forEach(link => {
+            const toggleDropdown = () => {
+                if (isMobile()) {
+                    link.setAttribute('data-toggle', 'dropdown');
+                    link.onclick = null;
+                } else {
+                    link.removeAttribute('data-toggle');
+                    link.onclick = (e) => e.preventDefault();
+                }
+            };
 
-        toggleDropdown();
-        window.addEventListener('resize', toggleDropdown);
+            toggleDropdown();
+            window.addEventListener('resize', toggleDropdown);
+        });
     });
-});
 </script>
