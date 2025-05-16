@@ -52,7 +52,7 @@ mail:
 -   `day` is a string (so no specific format) for the day of the event. Currently, only the "dd-mm-yy" and "dd-mm-yy to dd-mm-yy" formats are in use
 -   `duration` allows you to specify the event duration. Currently, only the "All day" and "hh:mm - hh:mm" formats are in use
 -   `image` is the image that will be displayed in the body of the event and in the events list page. Insert it in [`assets/images`](assets/images/) folder
--   `background` is the image shown in the header of the page (typically [/assets/images/DSC_1507.jpg](/assets/images/DSC_1507.jpg))
+-   `background` is the image shown in the header of the page (typically [`/assets/images/DSC_1507.jpg`](/assets/images/DSC_1507.jpg))
 -   `permalink` is the output path of the event; typically it is something like `/i-nostri-eventi/evento1`
 -   `facebook`, `twitter`, `linkedin` and `mail` are the links that can be used to share the event on the various platforms. They require the full URL of the post on the relative platform (for the mail you have to insert `mailto:?subject=` and so on); if you do not want to include a link, just remove the relative variable
 
