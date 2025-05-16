@@ -74,7 +74,7 @@ permalink:
 The meaning of the variables are the same as for events. Additionally, here you can set `show_title: True` if you want to show the title in the header of the page (i.e., on the background image).
 
 > [!IMPORTANT]
-> If the added page is to appear in the navigation menu, the `navigation` variable of [`config.yml`](_config.yml) should also be modified
+> If the added page is to appear in the navigation menu, the `navigation` variable of [`_config.yml`](_config.yml) must also be modified
 
 ### Pushing changes
 
