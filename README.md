@@ -48,7 +48,7 @@ mail:
 
 -   `layout: event` specify the [`layout`](_layouts/event.html) that will be used to render the page event
 -   `title` is a string for the title that will be displayed inside the event page as well as in the events list page
--   `category` is needed to distinguish for past events ("eventi-passati") and future events ("eventi-in-programma"). At the moment only these two categories exists. Please note that if you need to add more, you have to modify the [page listing all events](posts/index.html) (e.g., [`thecodingbox.org/i-nostri-eventi`](thecodingbox.org/i-nostri-eventi)) accordingly, otherwise they will not be shown
+-   `category` is needed to distinguish for past events ("eventi-passati") and future events ("eventi-in-programma"). At the moment only these two categories exists. Please note that if you need to add more, you have to modify the [page listing all events](posts/index.html) (e.g., [`thecodingbox.org/i-nostri-eventi`](https://thecodingbox.org/i-nostri-eventi/)) accordingly, otherwise they will not be shown
 -   `day` is a string (so no specific format) for the day of the event. Currently, only the "dd-mm-yy" and "dd-mm-yy to dd-mm-yy" formats are in use
 -   `duration` allows you to specify the event duration. Currently, only the "All day" and "hh:mm - hh:mm" formats are in use
 -   `image` is the image that will be displayed in the body of the event and in the events list page. Insert it in [`assets/images`](assets/images/) folder
